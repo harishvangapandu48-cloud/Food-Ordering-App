@@ -1,0 +1,12 @@
+## Experiment 5: State Management for Food Ordering App
+
+In this experiment, state management was implemented to make the Food Ordering App interactive and dynamic. State refers to information that can change while the application is running. In a food ordering application, examples of state include selected food items, cart contents, quantities, favorite items, and order information.
+
+StatefulWidget and setState() were used to handle simple changes within individual screens. For example, when a user increases or decreases the quantity of a food item, the interface needs to update immediately and display the new quantity and price.
+
+Provider and ChangeNotifier were also studied for managing application-wide state. Provider can be used to maintain shopping cart information and make that data available to multiple screens. When the cart changes, notifyListeners() can be used to notify the relevant widgets so that the user interface updates automatically.
+
+The cart functionality can therefore maintain selected food items, quantities, and total prices. This makes the Food Ordering App more interactive and provides a better structure for managing shared application data.
+
+### Git Commit
+`Implement state management for cart and food items`
